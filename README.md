@@ -1,2 +1,7 @@
 # HelloCV
-HITWH
+HITWH  
+语雀文档：  
+[Git配置](https://www.yuque.com/u29112212/ucgrla/ml70stdhi5p6ye2q)  
+[配置VS Code开发环境](https://www.yuque.com/u29112212/ucgrla/er9aisy3npfb2sm2)  
+[OpenCV](https://www.yuque.com/u29112212/ucgrla/ncbimw0ksguzki02)  
+[ROS2](https://www.yuque.com/u29112212/ucgrla/uuv1vxszkphsytha)  
