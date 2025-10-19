@@ -6,4 +6,4 @@
 [OpenCV](https://www.yuque.com/u29112212/ucgrla/ncbimw0ksguzki02)  
 [ROS2](https://www.yuque.com/u29112212/ucgrla/uuv1vxszkphsytha)  
 # 第二周  
-文档和项目见[此处](tree/Crypto-Tool)  
+文档和项目见[此处](../tree/Crypto-Tool)  
