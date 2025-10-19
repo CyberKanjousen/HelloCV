@@ -1,5 +1,6 @@
 <h1 id="MrC71">理解 Docker</h1>
 <h2 id="dCyoJ">镜像</h2>
+
 > 镜像是一个只读的模板，包含了运行应用所需的所有内容：代码、运行时、库文件、环境变量和配置文件。镜像就像是一个安装程序或者模板，它定义了应用运行所需的一切，但本身不能直接运行。
 >
 > 出自[Runoob.com](https://www.runoob.com/docker/docker-intro.html)
@@ -27,6 +28,7 @@
 
 <h1 id="oaqAq">准备工作</h1>
 <h2 id="L2OfT">Docker 的安装和配置</h2>
+
 执行以下命令安装Docker Engine：（来自[此处](https://www.runoob.com/docker/ubuntu-docker-install.html)）
 
 ```plain
@@ -55,7 +57,7 @@ docker pull ubuntu
 sudo gpasswd -a username docker && newgrp docker
 ```
 
-之后，我想到镜像拉取要和Docker Hub连接，然而Docker Hub受到_有形的大手_的影响，拉取镜像非常缓慢，而国内镜像据说又不是很稳定，于是只好使用_神秘小软件_。
+之后，我想到镜像拉取要和Docker Hub连接，然而Docker Hub受到防火长城的影响，拉取镜像非常缓慢，而国内镜像据说又不是很稳定，于是只好使用梯子绕过防火长城。
 
 > docker pull /push 的代理被 systemd 接管，所以需要设置 systemd...
 >
@@ -79,11 +81,11 @@ Environment="HTTP_PROXY=http://127.0.0.1:10808"
 Environment="HTTPS_PROXY=http://127.0.0.1:10808"
 ```
 
-现在，docker pull/push就可以走_神秘小软件_的后门了。但是build和容器仍然走不了。根据[此处](https://docs.docker.com/engine/cli/proxy/)的说法，安装Docker Desktop来设置会方便一些。于是我安装了Docker Desktop。
+现在，docker pull/push就可以走梯子的代理了。但是build和容器仍然走不了。根据[此处](https://docs.docker.com/engine/cli/proxy/)的说法，安装Docker Desktop来设置会方便一些。于是我安装了Docker Desktop。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1760799578059-32553311-291b-468a-8bf7-129993d84d86.png)
 
-可以在这里设置host模式，使容器在运行时与宿主机共享网络。也就是说，只要电脑上_神秘小软件_运行着，容器就可以访问Github
+可以在这里设置host模式，使容器在运行时与宿主机共享网络。也就是说，只要电脑上运行着梯子，容器就可以访问Github
 
 现在拉取Ubuntu镜像并创建一个容器试试：
 
@@ -104,10 +106,12 @@ docker run -it ubuntu /bin/bash
 注意：如果没有`/bin/bash`的话，Ubunntu容器默认使用`/bin/sh`，而`/bin/sh`并不是交互式Shell——也就是说，这个容器一运行就会因为没有可执行的命令而结束。即便用`docker start -i`启动，将预设的命令执行完后也会自动结束，不给用户任何的输入机会。
 
 <h1 id="jYjyB">终端命令</h1>
+
 这些命令有不少都已经集成到了Docker Desktop的图形界面中。
 
 <h2 id="ImPjE">容器生命周期的管理</h2>
 <h3 id="VHRkE">run</h3>
+
 创建并运行一个容器：
 
 ```plain
@@ -124,7 +128,7 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 + `--rm`: 容器停止后自动删除容器。
 + `--env`或`-e`: 设置环境变量。
 + `--network`: 指定容器的网络模式。
-+ `--restart`: 容器的重启策略（如`no``on-failure``always``unless-stopped`）。
++ `--restart`: 容器的重启策略（如`no` `on-failure` `always` `unless-stopped`）。
 + `-u`: 指定用户。
 
 （`--rm`并不会自动删除后台运行的容器，也就是说，这个选项和-d同时使用时不会生效。）
@@ -168,7 +172,7 @@ docker stop [OPTIONS] CONTAINER [CONTAINER...]
 
 可用选项：
 
-+ `-t``--time`: 停止容器之前等待的秒数，默认是 10 秒。
++ `-t` `--time`: 停止容器之前等待的秒数，默认是 10 秒。
 
 <h3 id="rGE6B">restart</h3>
 重启容器：
@@ -179,7 +183,7 @@ docker restart [OPTIONS] CONTAINER [CONTAINER...]
 
 可用选项：
 
-+ `-t``--time`: 停止容器之前等待的秒数，默认是 10 秒。
++ `-t` `--time`: 停止容器之前等待的秒数，默认是 10 秒。
 
 <h3 id="qBAKJ">kill</h3>
 立刻终止容器：
@@ -190,7 +194,7 @@ docker kill [OPTIONS] CONTAINER [CONTAINER...]
 
 可用选项：
 
-+ `-s``--signal`: 发送给容器的信号（默认为`SIGKILL`）。
++ `-s` `--signal`: 发送给容器的信号（默认为`SIGKILL`）。
 
 可用信号：
 
@@ -208,9 +212,9 @@ docker rm [OPTIONS] CONTAINER [CONTAINER...]
 
 可用选项：
 
-+ `-f``--force`: 强制删除正在运行的容器（使用 SIGKILL 信号）。
-+ `-l``--link`: 删除指定的连接，而不是容器本身。
-+ `-v``--volumes`: 删除容器挂载的卷。
++ `-f` `--force`: 强制删除正在运行的容器（使用`SIGKILL`信号）。
++ `-l` `--link`: 删除指定的连接，而不是容器本身。
++ `-v` `--volumes`: 删除容器挂载的卷。
 
 删除所有已经停止的容器：
 
@@ -249,7 +253,7 @@ docker create [OPTIONS] IMAGE [COMMAND] [ARG...]
 + `-v, --volume`: 挂载卷，格式为`host_dir:container_dir`。
 + `-e, --env`: 设置环境变量。
 + `--network`: 指定容器的网络模式。
-+ `--restart`: 容器的重启策略（如`no``on-failure``always``unless-stopped`）。
++ `--restart`: 容器的重启策略（如`no` `on-failure` `always` `unless-stopped`）。
 + `-u, --user`: 指定用户。
 + `--entrypoint`: 覆盖容器的默认入口点。
 + ``--detach`: 在后台创建容器。
@@ -263,7 +267,7 @@ docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
 
 可用选项：
 
-+ `-d``--detach`: 在后台运行命令。
++ `-d` `--detach`: 在后台运行命令。
 + `--detach-keys`: 覆盖分离容器的键序列。
 + `-e, --env`: 设置环境变量。
 + `--env-file`: 从文件中读取环境变量。
@@ -299,13 +303,13 @@ docker ps [OPTIONS]
 
 可用选项：
 
-+ `-a``--all`: 显示所有容器，包括停止的容器。
-+ `-q``--quiet`: 只显示容器 ID。
-+ `-l``--latest`: 显示最近创建的一个容器，包括所有状态。
++ `-a` `--all`: 显示所有容器，包括停止的容器。
++ `-q` `--quiet`: 只显示容器 ID。
++ `-l` `--latest`: 显示最近创建的一个容器，包括所有状态。
 + `-n`: 显示最近创建的`n`个容器，包括所有状态。
 + `--no-trunc`: 不截断输出。
-+ `-s``--size`: 显示容器的大小。
-+ `--filter``-f`: 根据条件过滤显示的容器。
++ `-s` `--size`: 显示容器的大小。
++ `--filter` `-f`: 根据条件过滤显示的容器。
 + `--format`: 使用 Go 模板语法格式化输出。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1760847516613-087dceed-3893-46c6-8e76-74a92fbc180f.png)
@@ -319,8 +323,8 @@ docker inspect [OPTIONS] NAME|ID [NAME|ID...]
 
 可用选项：
 
-+ `-f``--format`: 使用 Go 模板语法格式化输出。
-+ `--type`: 返回指定类型的对象信息（可选类型：`container``image``network``volume`）。
++ `-f` `--format`: 使用 Go 模板语法格式化输出。
++ `--type`: 返回指定类型的对象信息（可选类型：`container` `image` `network` `volume`）。
 
 将信息输出到`.json`文件：
 
@@ -336,9 +340,9 @@ docker logs [OPTIONS] CONTAINER
 
 可用选项：
 
-+ `-f``--follow`: 跟随日志输出。
++ `-f` `--follow`: 跟随日志输出。
 + `--since`: 从指定时间开始显示日志。
-+ `-t``--timestamps`: 显示日志时间戳。
++ `-t` `--timestamps`: 显示日志时间戳。
 + `--tail`: 仅显示日志的最后部分，例如`--tail 10`显示最后 10 行。
 + `--details`: 显示提供给日志的额外详细信息。
 + `--until`: 显示直到指定时间的日志。
@@ -425,12 +429,12 @@ docker images [OPTIONS] [REPOSITORY[:TAG]]
 
 可用选项：
 
-+ `-a``--all`: 显示所有镜像（包括中间层镜像）。
++ `-a` `--all`: 显示所有镜像（包括中间层镜像）。
 + `--digests`: 显示镜像的摘要信息。
-+ `-f``--filter`: 过滤输出，基于提供的条件。
++ `-f` `--filter`: 过滤输出，基于提供的条件。
 + `--format`: 使用 Go 模板格式化输出。
 + `--no-trunc`: 显示完整的镜像 ID。
-+ `-q``--quiet`: 只显示镜像 ID。
++ `-q` `--quiet`: 只显示镜像 ID。
 
 比如，列出所有本地镜像：
 
@@ -449,11 +453,11 @@ docker rmi [OPTIONS] IMAGE [IMAGE...]
 
 可用选项：
 
-+ `-a``--all-tags`: 指定仓库名称时，删除该仓库下的所有镜像。
-+ `-f``--force`: 强制删除镜像，即使该镜像被容器使用。
++ `-a` `--all-tags`: 指定仓库名称时，删除该仓库下的所有镜像。
++ `-f` `--force`: 强制删除镜像，即使该镜像被容器使用。
 + `--help`: 打印帮助信息并退出。
 + `--no-prune`: 不删除悬空的父镜像。
-+ `-q``--quiet`: 安静模式，不显示删除镜像的详细信息。
++ `-q` `--quiet`: 安静模式，不显示删除镜像的详细信息。
 
 <h3 id="H1dBJ">pull</h3>
 拉取一个镜像：（默认标签为`lastest`）
@@ -462,7 +466,7 @@ docker rmi [OPTIONS] IMAGE [IMAGE...]
 docker pull [OPTIONS] NAME[:TAG|@DIGEST]
 ```
 
-+ `--all-tags``-a`: 下载指定镜像的所有标签。
++ `--all-tags` `-a`: 下载指定镜像的所有标签。
 + `--disable-content-trust`: 跳过镜像签名验证。
 
 比如，拉取一个最新版本的Nginx镜像：
@@ -478,8 +482,8 @@ docker build [OPTIONS] PATH | URL | -
 
 常用可用选项：
 
-+ `-t``--tag`: 为构建的镜像指定名称和标签。
-+ `-f``--file`: 指定`Dockerfile`的路径（默认是`PATH`下的`Dockerfile`）。
++ `-t` `--tag`: 为构建的镜像指定名称和标签。
++ `-f` `--file`: 指定`Dockerfile`的路径（默认是`PATH`下的`Dockerfile`）。
 + `--build-arg`: 设置构建参数。
 + `--no-cache`: 不使用缓存层构建镜像。
 + `--rm`: 构建成功后删除中间容器（默认开启）。
@@ -568,11 +572,12 @@ docker build -t nginx:dwb .
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1760873895018-acdd1353-2e4a-4e62-8310-b0697c44c41c.png)
 
-访问`http://localhost:8080/home.html`：
+访问`http://localhost:8080/home.html` ：
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1760874143634-659d3266-2675-4561-82ab-03638733ff40.png)
 
 <h1 id="nl8DG">端口映射</h1>
+
 > 在电脑网络中，端口转发或端口映射（英语：Port forwarding）是网络地址转换（NAT）的一种应用，当网络数据包穿越网关时，例如路由器或防火墙时，将带有 IP地址和端口的连线请求转发到指定的 IP 地址及其端口口上，换句话说，就是将一台主机的网络端口转发到另外一台主机并由另一台主机提供转发的网络服务。此技术最常用于将位于受保护网络或局域网（LAN）内主机上的服务提供给广域网（WAN）上的主机。
 >
 > 出自[zh.wikipedia.org](https://zh.wikipedia.org/wiki/%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91)
@@ -582,14 +587,15 @@ docker build -t nginx:dwb .
 
 在Docker中，情况也是相似的，端口映射可以使容器的一个端口暴露到局域网（容器的网络可以说是局域网内的局域网，也就是主机）中。
 
-在`test`容器的实例中，我将主机的`8080`端口映射到容器的`80`端口上，使主机通过`http://localhost:8080/`访问存放在容器上的静态网站。`-p`默认绑定的是TCP端口，如果要绑定UDP端口，则要在端口后加上`/udp`。
+在`test`容器的实例中，我将主机的`8080`端口映射到容器的`80`端口上，使主机通过`http://localhost:8080/` 访问存放在容器上的静态网站。`-p`默认绑定的是TCP端口，如果要绑定UDP端口，则要在端口后加上`/udp`。
 
 在这里，主机的`8080`端口映射到容器`dwb`的`80`端口上，并且是TCP端口。
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1760873895018-acdd1353-2e4a-4e62-8310-b0697c44c41c.png)
 
 <h1 id="SFU2y">Docker Hub</h1>
-在执行`docker pull`命令时，若本地注册表上没有这个镜像，且镜像的源的设定保持默认不便，那么就会从Docker Hub上拉取镜像。在准备工作中，通过配置代理，使主机绕过_有形的大手_，成功拉取了镜像到本地。
+
+在执行`docker pull`命令时，若本地注册表上没有这个镜像，且镜像的源的设定保持默认不便，那么就会从Docker Hub上拉取镜像。在准备工作中，通过配置代理，使主机绕过防火长城，成功拉取了镜像到本地。
 
 将本地的镜像推送到Docker Hub和将本地的项目推送到GitHub类似（如果两者都用命令行进行推送的话）。首先，需要在Docker Hub上注册一个账号，然后新建一个仓库：
 
@@ -621,7 +627,7 @@ docker login
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1760876993096-69b684ec-a318-4e01-b225-0317ce9d16c3.png)
 
-和CLion一样，Docker Desktop也可以直接通过图形界面进行镜像推送。命令行界面的话则使用`tag``push`命令：
+和CLion一样，Docker Desktop也可以直接通过图形界面进行镜像推送。命令行界面的话则使用`tag` `push`命令：
 
 ```plain
 docker tag <existing-image> <hub-user>/<repo-name>[:<tag>]
@@ -714,3 +720,4 @@ chmod ugo=rwx start.sh
 
 （有什么用呢？也许可以用来测试Spigot插件在不同版本Ubuntu的可用性……）
 
+[语雀笔记页面](https://www.yuque.com/u29112212/ucgrla/skirwu5gdy1d7gux)
