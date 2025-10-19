@@ -11,6 +11,7 @@
 虚拟机镜像体积庞大，一般是GB级别；Docker镜像体积相对小，一般是MB级别。这是因为前者的镜像中包含了一个完整的操作系统，依靠Hyper-V技术运行。后者则依靠主机上的操作系统运行，因而不包含一个完整操作系统。
 
 <h2 id="okxqL">容器</h2>
+
 > 容器是镜像的运行实例，是一个轻量级、可移植的执行环境。
 >
 > 出自[Runoob.com](https://www.runoob.com/docker/docker-intro.html)
@@ -19,6 +20,7 @@
 观察Docker的Logo：一只鲸鱼驮着若干像集装箱一样的小方块。如果鲸鱼代表着主机和Docker的话，那么容器就是那些小方块。如果将镜像比作面向对象编程的高级语言中的类，那么容器就是其对象实例。和虚拟机相似，一个镜像可以创建多个容器。
 
 <h2 id="yX9UW">仓库</h2>
+
 > 仓库是存储和分发镜像的地方，可以包含一个镜像的多个版本。
 >
 > 出自[Runoob.com](https://www.runoob.com/docker/docker-intro.html)
@@ -242,6 +244,9 @@ docker unpause CONTAINER [CONTAINER...]
 >
 
 <h3 id="XMFV9">create</h3>
+
+创建容器但不运行：
+
 ```plain
 docker create [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
@@ -460,6 +465,7 @@ docker rmi [OPTIONS] IMAGE [IMAGE...]
 + `-q` `--quiet`: 安静模式，不显示删除镜像的详细信息。
 
 <h3 id="H1dBJ">pull</h3>
+
 拉取一个镜像：（默认标签为`lastest`）
 
 ```plain
@@ -491,6 +497,7 @@ docker build [OPTIONS] PATH | URL | -
 + `--pull`: 始终尝试从注册表拉取最新的基础镜像。
 
 <h1 id="xoYih">Dockerfile</h1>
+
 Dockerfile 的指令如下（出自[runoob.com](https://www.runoob.com/docker/docker-dockerfile.html)）：
 
 | Dockerfile 指令 | 说明 |
@@ -677,7 +684,7 @@ docker run -it --name test -p 1919:810 cyberkanjousen/hello_cv:spigotmc /bin/bas
 
 启动服务器：
 
-```dockerfile
+```plain
 cd /home/server
 ./start.sh
 ```
@@ -686,7 +693,7 @@ cd /home/server
 
 拒绝访问。看来需要改一下文件权限了——这是以前每次创建MCJE服务器实例时不得不品的一环。当时订购的云服务器用SSH连接，登录的一般都是root用户，因而初始没有对`/home`目录下的执行权限，我觉得大概这是为了系统安全而特意设计的。我一般会执行以下命令：
 
-```dockerfile
+```plain
 chmod ugo=rwx start.sh
 ```
 
