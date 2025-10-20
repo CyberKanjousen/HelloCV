@@ -442,3 +442,4 @@ sudo ldconfig
 
 出现摄像页面，说明OpenCV安装成功。
 
+[语雀笔记页面](https://www.yuque.com/u29112212/ucgrla/omwnvh62afkgnosp)

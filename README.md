@@ -20,3 +20,4 @@ mkdir build && cd build && cmake .. && make
 
 - [加密程序开发](加密程序开发.md)
 - [Docker](Docker.md)
+- [CMake](CMake.md)
