@@ -113,7 +113,7 @@ namespace crypto_tool {
 
     void Menu::road_input() {
         std::string input;
-        std::cin >> input;
+        std::getline(std::cin, input);
         if (input.substr(input.size() - 4, 4) != ".txt") {
             ERR("错误: 目标文件必须是.txt文件");
             return;
