@@ -17,3 +17,6 @@ mkdir build && cd build && cmake .. && make
 即可完成构建。
 
 ## 本期任务笔记列表：
+
+- [OpenCV学习](OpenCV学习.md)
+- [OpenCV实践](OpenCV实践.md)

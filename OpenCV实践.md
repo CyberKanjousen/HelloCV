@@ -279,3 +279,5 @@ cv::inRange(frameHSV, cv::Scalar(0, 108, 170), cv::Scalar(179, 220, 255), frameR
 
 cv::inRange(frameHSV, cv::Scalar(83, 194, 122), cv::Scalar(97, 255, 198), frameGreenChannel);
 ```
+
+[语雀笔记页面](https://www.yuque.com/u29112212/ucgrla/yx9zxqmizwfefqzf)
