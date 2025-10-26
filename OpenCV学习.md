@@ -359,8 +359,6 @@ cv::warpAffine(image, translatedImage, translationMatrix, image.size());
 
 OpenCV有一个`cv::getAffineTransform(src, dst)`方法可以通过映射输入图像和输出图像的坐标的方式来生成转换矩阵，其用法和`cv::getPerspectiveTransform(src, dst)`相似。`cv::getPerspectiveTransform(src, dst)`的用法见[透视变换](#透视变换)。
 
-需注意的是，`cv::warpAffine()`方法不会改变原图像大小。也就是说，如果通过`cv::warpAffine()`缩放图像，窗口仍是原图像的大小：
-
 ![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1761222891706-28804b8b-0e54-410d-b610-0e08603bd784.png)
 
 ## 透视变换
