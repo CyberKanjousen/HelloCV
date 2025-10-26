@@ -16,6 +16,8 @@ mkdir build && cd build && cmake .. && make
 
 即可完成构建。
 
+源视频、输出视频等在`resources`目录下。
+
 ## 本期任务笔记列表：
 
 - [OpenCV学习](OpenCV学习.md)
