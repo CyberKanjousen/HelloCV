@@ -190,6 +190,62 @@ cv::putText(drownImage, text, cv::Point(inputImage.cols / 2 - 300, 100), cv::FON
 
 `mask()`方法实现完成。
 
+# 多线程优化
+
+测试的时候发现，`imshow()`播放视频非常卡顿。我检查了一下代码，发现一个令人哭笑不得的问题：
+
+```c++
+// 将cap中的图像写入frame
+
+if (cv::waitKey(30) == 27) {
+    break;
+}
+
+// 处理图像
+```
+
+是的，程序在运行到这里时，会停顿30毫秒，以保证帧的更迭不要过快。在这30毫秒中，程序什么也不干，只是等待30毫秒倒计时结束。
+
+这真是太*问候语*弱智了。于是，我决定异步处理图像。出于~~懒~~尽量减少修改代码的需要，我用lambda表达式将处理图像的部分包含起来，再把这个lambda表达式放进新建的线程里：
+
+```c++
+// 将cap中的图像写入frame
+
+std::promise<cv::Mat> framePromise;
+std::future<cv::Mat> frameFuture = framePromise.get_future();
+
+std::thread detectThread([&framePromise](const cv::Mat& srcFrame) {
+
+    cv::Mat frameHSV, frameRedChannel, frameGreenChannel;
+
+    cv::cvtColor(srcFrame, frameHSV, cv::COLOR_BGR2HSV);
+
+    cv::inRange(frameHSV, cv::Scalar(0, 108, 170), cv::Scalar(181, 220, 255), frameRedChannel);
+    mark(frameRedChannel, srcFrame, "Red");
+
+    cv::inRange(frameHSV, cv::Scalar(83, 194, 122), cv::Scalar(97, 255, 198), frameGreenChannel);
+    mark(frameGreenChannel, srcFrame, "Green");
+
+    framePromise.set_value(srcFrame);
+
+}, frame);
+
+// 30毫秒等待的代码移动到了这里
+if (cv::waitKey(30) == 27) {
+    break;
+}
+
+// 线程间通讯
+frame = frameFuture.get();
+
+// 关闭线程，和随手关门一样重要
+detectThread.join();
+
+// 缩放图像等后续操作
+```
+
+这时再运行程序，播放视频就流畅多了。
+
 # 运行程序
 
 运行程序，弹出一个播放视频的窗口，窗口中绘制了红绿灯的识别结果：

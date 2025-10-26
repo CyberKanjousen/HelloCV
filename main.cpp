@@ -1,7 +1,9 @@
+#include <future>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
 #include <iostream>
 #include <random>
+#include <thread>
 
 void mark(const cv::Mat& inputImage, cv::Mat drownImage, const cv::String & text);
 
@@ -13,7 +15,7 @@ int main() {
         return -1;
     }
 
-    cv::Mat frame, frameHSV, frameShow, frameRedChannel, frameGreenChannel;
+    cv::Mat frame, frameShow, frame_output;
 
     double fps = cap.get(cv::CAP_PROP_FPS);
     cv::Size2d frameSize(cap.get(cv::CAP_PROP_FRAME_WIDTH), cap.get(cv::CAP_PROP_FRAME_HEIGHT));
@@ -24,16 +26,33 @@ int main() {
         if (frame.empty()) {
             break;
         }
+
+        std::promise<cv::Mat> framePromise;
+        std::future<cv::Mat> frameFuture = framePromise.get_future();
+
+        std::thread detectThread([&framePromise](const cv::Mat& srcFrame) {
+
+            cv::Mat frameHSV, frameRedChannel, frameGreenChannel;
+
+            cv::cvtColor(srcFrame, frameHSV, cv::COLOR_BGR2HSV);
+
+            cv::inRange(frameHSV, cv::Scalar(0, 108, 170), cv::Scalar(181, 220, 255), frameRedChannel);
+            mark(frameRedChannel, srcFrame, "Red");
+
+            cv::inRange(frameHSV, cv::Scalar(83, 194, 122), cv::Scalar(97, 255, 198), frameGreenChannel);
+            mark(frameGreenChannel, srcFrame, "Green");
+
+            framePromise.set_value(srcFrame);
+
+        }, frame);
+
         if (cv::waitKey(30) == 27) {
             break;
         }
-        cv::cvtColor(frame, frameHSV, cv::COLOR_BGR2HSV);
 
-        cv::inRange(frameHSV, cv::Scalar(0, 108, 170), cv::Scalar(181, 220, 255), frameRedChannel);
-        mark(frameRedChannel, frame, "Red");
+        frame = frameFuture.get();
 
-        cv::inRange(frameHSV, cv::Scalar(83, 194, 122), cv::Scalar(97, 255, 198), frameGreenChannel);
-        mark(frameGreenChannel, frame, "Green");
+        detectThread.join();
 
         cv::resize(frame, frameShow, cv::Size(frame.cols / 2, frame.rows / 2), 0.5, 0.5);
 
