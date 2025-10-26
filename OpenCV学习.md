@@ -531,14 +531,21 @@ int main() {
     cv::cvtColor(img, imgHSV, cv::COLOR_BGR2HSV);
 
     cv::namedWindow("Trackbars", cv::WINDOW_NORMAL);
-    cv::createTrackbar("Hue Min", "Trackbars", &hMin, 179);
-    cv::createTrackbar("Hue Max", "Trackbars", &hMax, 179);
-    cv::createTrackbar("Sat Min", "Trackbars", &sMin, 255);
-    cv::createTrackbar("Sat Max", "Trackbars", &sMax, 255);
-    cv::createTrackbar("Val Min", "Trackbars", &vMin, 255);
-    cv::createTrackbar("Val Max", "Trackbars", &vMax, 255);
+    cv::createTrackbar("Hue Min", "Trackbars", nullptr, 179);
+    cv::createTrackbar("Hue Max", "Trackbars", nullptr, 179);
+    cv::createTrackbar("Sat Min", "Trackbars", nullptr, 255);
+    cv::createTrackbar("Sat Max", "Trackbars", nullptr, 255);
+    cv::createTrackbar("Val Min", "Trackbars", nullptr, 255);
+    cv::createTrackbar("Val Max", "Trackbars", nullptr, 255);
 
     do {
+        hMin = cv::getTrackbarPos("Hue Min", "Trackbars");
+        hMax = cv::getTrackbarPos("Hue Max", "Trackbars");
+        sMin = cv::getTrackbarPos("Sat Min", "Trackbars");
+        sMax = cv::getTrackbarPos("Sat Max", "Trackbars");
+        vMin = cv::getTrackbarPos("Val Min", "Trackbars");
+        vMax = cv::getTrackbarPos("Val Max", "Trackbars");
+        
         cv::inRange(imgHSV, cv::Scalar(hMin, sMin, vMin), cv::Scalar(hMax, sMax, vMax), mask);
 
         cv::imshow("img", img);
