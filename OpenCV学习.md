@@ -306,6 +306,16 @@ cv::flip(image, flippedImage, 1); // 1表示水平翻转，0表示垂直翻转
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1761223580845-6bef975b-9325-4720-ba01-4fef4b43615b.png)
 
+## 裁剪图像
+
+在图像里截取一个矩形图像。其中`cv::Rect`类型的属性见[绘制几何图形和文字](#绘制几何图形和文字)。
+
+```c++
+cv::Mat dst = src(cv::Rect(x, y, width, height));
+```
+
+![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1761450398104-264ded76-b888-4b9e-bda0-ec7c95265dec.png)
+
 ## 仿射变换
 
 将图像绕中心旋转某个角度：
