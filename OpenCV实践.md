@@ -235,7 +235,7 @@ if (cv::waitKey(30) == 27) {
     break;
 }
 
-// 线程间通讯
+// 线程间的值传递
 frame = frameFuture.get();
 
 // 关闭线程，和随手关门一样重要
