@@ -343,6 +343,16 @@ cv::warpAffine(image, translatedImage, translationMatrix, image.size());
 
 ![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1761221389547-ca982e7f-1b01-4992-9803-9b5bc3d522dc.png)
 
+缩放图像：（缩放0.4倍数）
+
+```c++
+cv::Mat translationMatrix = (cv::Mat_<double>(2, 3) << 0.4, 0, 0, 0, 0.4, 0);
+cv::Mat translatedImage;
+cv::warpAffine(image, translatedImage, translationMatrix, image.size());
+```
+
+![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1761222891706-28804b8b-0e54-410d-b610-0e08603bd784.png)
+
 根据[此处](https://blog.csdn.net/qq_22734027/article/details/134482760)的说法，`cv::warpAffine(src, dst, M, dsize, flags, borderMode, borderValue)`是二维仿射变换方法，其形参有：
 
 - `src`: 输入图像，必须是单通道或三通道的8位或32位浮点型图像
@@ -359,7 +369,6 @@ cv::warpAffine(image, translatedImage, translationMatrix, image.size());
 
 OpenCV有一个`cv::getAffineTransform(src, dst)`方法可以通过映射输入图像和输出图像的坐标的方式来生成转换矩阵，其用法和`cv::getPerspectiveTransform(src, dst)`相似。`cv::getPerspectiveTransform(src, dst)`的用法见[透视变换](#透视变换)。
 
-![](https://cdn.nlark.com/yuque/0/2025/png/29543181/1761222891706-28804b8b-0e54-410d-b610-0e08603bd784.png)
 
 ## 透视变换
 
