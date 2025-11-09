@@ -1,0 +1,31 @@
+[0.011s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[0.046s] 
+[0.046s] [0/1] Re-running CMake...[K
+[0.087s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.291s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.328s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.337s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.367s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.435s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.437s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.508s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.583s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.665s] -- Configuring done (0.6s)
+[0.678s] -- Generating done (0.0s)
+[0.686s] -- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub
+[0.696s] 
+[0.696s] [0/4] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[0.737s] [0/4] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[0.737s] [1/4] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[0.769s] [1/4] Linking CXX executable publisher_114514[K
+[0.769s] [2/4] Linking CXX executable publisher_114514[K
+[0.769s] [31mFAILED: [0mpublisher_114514 
+[0.769s] : && /usr/bin/c++   CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o -o publisher_114514   && :
+[0.769s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.769s] (.text+0x1b): undefined reference to `main'
+[0.769s] collect2: error: ld returned 1 exit status
+[3.247s] 
+[3.247s] [3/4] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[3.247s] ninja: build stopped: subcommand failed.
+[3.249s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32

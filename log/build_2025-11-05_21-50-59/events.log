@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.000127] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000548] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.005135] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.005673] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja', '-DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub'], 'cwd': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/CLion/3309-1-cyberkanjousen-Legion-Y7000P-IRX10_TIME514306', 'SNAP_INSTANCE_KEY': '', 'USER': 'cyberkanjousen', 'SNAP_COMMON': '/var/snap/clion/common', 'socks_host': 'socks://127.0.0.1:10808', 'XDG_SESSION_TYPE': 'x11', 'SNAP_UID': '1000', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '0', 'HOME': '/home/cyberkanjousen', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void', 'DESKTOP_SESSION': 'ubuntu', 'SNAP_USER_DATA': '/home/cyberkanjousen/snap/clion/393', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/clion_clion.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2874', 'SYSTEMD_EXEC_PID': '3309', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '393', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5309', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'https_proxy': 'http://127.0.0.1:10808', 'LOGNAME': 'cyberkanjousen', 'SNAP_CONTEXT': '7cMq18PPvE0GyoauddMEMHLsazMvDF3aF-ApkkrArLYzdt8gAxjQ', 'http_proxy': 'http://127.0.0.1:10808', 'JOURNAL_STREAM': '9:38290', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'SNAP_VERSION': '2025.2.4', 'USERNAME': 'cyberkanjousen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'clion', 'WINDOWPATH': '2', 'PATH': '/home/cyberkanjousen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cyberkanjousen/.local/bin', 'SESSION_MANAGER': 'local/cyberkanjousen-Legion-Y7000P-IRX10:@/tmp/.ICE-unix/3211,unix/cyberkanjousen-Legion-Y7000P-IRX10:/tmp/.ICE-unix/3211', 'INVOCATION_ID': '9aa3dcbcf58143bc8d1a66d421b09343', 'XDG_MENU_PREFIX': 'gnome-', 'ftp_proxy': 'ftp://127.0.0.1:10808', 'SNAP_DATA': '/var/snap/clion/393', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SNAP_USER_COMMON': '/home/cyberkanjousen/snap/clion/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SNAP_ARCH': 'amd64', 'SNAP_COOKIE': '7cMq18PPvE0GyoauddMEMHLsazMvDF3aF-ApkkrArLYzdt8gAxjQ', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'SNAP_REEXEC': '', 'GDMSESSION': 'ubuntu', 'SNAP_NAME': 'clion', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SNAP_REAL_HOME': '/home/cyberkanjousen', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'SNAP': '/snap/clion/393', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='}), 'shell': False}
+[0.070981] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.099763] (-) TimerEvent: {}
+[0.129773] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.153242] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199947] (-) TimerEvent: {}
+[0.221067] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.227200] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.227454] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.227708] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.238447] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300132] (-) TimerEvent: {}
+[0.335076] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.342755] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.342849] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.343194] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.350095] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.350189] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[0.350247] (cpp_pubsub) StderrLine: {'line': b'  By not providing "Findrclcpp.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.350289] (cpp_pubsub) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "rclcpp", but\n'}
+[0.350327] (cpp_pubsub) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.350362] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.350396] (cpp_pubsub) StderrLine: {'line': b'  Could not find a package configuration file provided by "rclcpp" with any\n'}
+[0.350433] (cpp_pubsub) StderrLine: {'line': b'  of the following names:\n'}
+[0.350467] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.350500] (cpp_pubsub) StderrLine: {'line': b'    rclcppConfig.cmake\n'}
+[0.350535] (cpp_pubsub) StderrLine: {'line': b'    rclcpp-config.cmake\n'}
+[0.350568] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.350602] (cpp_pubsub) StderrLine: {'line': b'  Add the installation prefix of "rclcpp" to CMAKE_PREFIX_PATH or set\n'}
+[0.350634] (cpp_pubsub) StderrLine: {'line': b'  "rclcpp_DIR" to a directory containing one of the above files.  If "rclcpp"\n'}
+[0.350668] (cpp_pubsub) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.350704] (cpp_pubsub) StderrLine: {'line': b'  installed.\n'}
+[0.350737] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.350769] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.352935] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[0.368370] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[0.378710] (-) EventReactorShutdown: {}

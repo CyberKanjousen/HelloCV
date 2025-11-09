@@ -1,0 +1,15 @@
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/ament_index/resource_index/package_run_dependencies/sensor_robot
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/ament_index/resource_index/parent_prefix_path/sensor_robot
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/environment/ament_prefix_path.sh
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/environment/ament_prefix_path.dsv
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/environment/path.sh
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/environment/path.dsv
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/local_setup.bash
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/local_setup.sh
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/local_setup.zsh
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/local_setup.dsv
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.dsv
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/ament_index/resource_index/packages/sensor_robot
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/cmake/sensor_robotConfig.cmake
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/cmake/sensor_robotConfig-version.cmake
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.xml

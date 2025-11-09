@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot
+[0.071s] -- The C compiler identification is GNU 13.3.0
+[0.113s] -- The CXX compiler identification is GNU 13.3.0
+[0.130s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.266s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.269s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.389s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.554s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[0.733s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.814s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.814s] -- Configured cppcheck include dirs: 
+[0.814s] -- Configured cppcheck exclude dirs and/or files: 
+[0.814s] -- Added test 'lint_cmake' to check CMake code style
+[0.815s] -- Added test 'uncrustify' to check C / C++ code style
+[0.815s] -- Configured uncrustify additional arguments: 
+[0.815s] -- Added test 'xmllint' to check XML markup files
+[0.816s] -- Configuring done (0.8s)
+[0.819s] -- Generating done (0.0s)
+[0.826s] -- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot

@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_sim -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_sim
+[0.060s] -- The C compiler identification is GNU 13.3.0
+[0.103s] -- The CXX compiler identification is GNU 13.3.0
+[0.118s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.257s] -- Detecting CXX compiler ABI info - done
+[0.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.264s] -- Detecting CXX compile features - done
+[0.272s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.272s]   By not providing "FindCLI11.cmake" in CMAKE_MODULE_PATH this project has
+[0.272s]   asked CMake to find a package configuration file provided by "CLI11", but
+[0.272s]   CMake did not find one.
+[0.272s] 
+[0.272s]   Could not find a package configuration file provided by "CLI11" with any of
+[0.272s]   the following names:
+[0.272s] 
+[0.272s]     CLI11Config.cmake
+[0.272s]     cli11-config.cmake
+[0.272s] 
+[0.272s]   Add the installation prefix of "CLI11" to CMAKE_PREFIX_PATH or set
+[0.272s]   "CLI11_DIR" to a directory containing one of the above files.  If "CLI11"
+[0.272s]   provides a separate development package or SDK, be sure it has been
+[0.272s]   installed.
+[0.272s] 
+[0.272s] [0m
+[0.272s] -- Configuring incomplete, errors occurred!
+[0.274s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_sim' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_sim -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_sim

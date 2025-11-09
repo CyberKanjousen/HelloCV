@@ -1,0 +1,21 @@
+ninja: no work to do.
+-- Install configuration: ""
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/cpp_srvcli/server_114514
+-- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/cpp_srvcli/server_114514" to ""
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/cpp_srvcli/client_114514
+-- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/cpp_srvcli/client_114514" to ""
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.xml

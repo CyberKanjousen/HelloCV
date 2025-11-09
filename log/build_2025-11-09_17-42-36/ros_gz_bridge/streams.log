@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_bridge -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge
+[0.019s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.270s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.302s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.313s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.390s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.391s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.456s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.508s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.528s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[0.528s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[0.537s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[0.537s]   By not providing "Findgz_transport_vendor.cmake" in CMAKE_MODULE_PATH this
+[0.537s]   project has asked CMake to find a package configuration file provided by
+[0.538s]   "gz_transport_vendor", but CMake did not find one.
+[0.538s] 
+[0.538s]   Could not find a package configuration file provided by
+[0.538s]   "gz_transport_vendor" with any of the following names:
+[0.538s] 
+[0.538s]     gz_transport_vendorConfig.cmake
+[0.538s]     gz_transport_vendor-config.cmake
+[0.538s] 
+[0.538s]   Add the installation prefix of "gz_transport_vendor" to CMAKE_PREFIX_PATH
+[0.538s]   or set "gz_transport_vendor_DIR" to a directory containing one of the above
+[0.538s]   files.  If "gz_transport_vendor" provides a separate development package or
+[0.538s]   SDK, be sure it has been installed.
+[0.538s] 
+[0.538s] [0m
+[0.538s] -- Configuring incomplete, errors occurred!
+[0.544s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_bridge' returned '1': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_bridge -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge

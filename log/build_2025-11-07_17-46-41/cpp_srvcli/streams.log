@@ -1,0 +1,53 @@
+[0.008s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli
+[0.053s] -- The C compiler identification is GNU 13.3.0
+[0.096s] -- The CXX compiler identification is GNU 13.3.0
+[0.114s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.250s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.381s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.455s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.486s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.495s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.569s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.571s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.638s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.657s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.733s] -- Found service_114514: 0.0.0 (/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/cmake)
+[0.745s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.825s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.825s] -- Configured cppcheck include dirs: 
+[0.825s] -- Configured cppcheck exclude dirs and/or files: 
+[0.825s] -- Added test 'lint_cmake' to check CMake code style
+[0.825s] -- Added test 'uncrustify' to check C / C++ code style
+[0.825s] -- Configured uncrustify additional arguments: 
+[0.825s] -- Added test 'xmllint' to check XML markup files
+[0.826s] -- Configuring done (0.8s)
+[0.833s] -- Generating done (0.0s)
+[0.844s] -- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli
+[0.851s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli
+[0.852s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli -- -j32 -l32
+[0.864s] 
+[0.865s] [0/4] Building CXX object CMakeFiles/server_114514.dir/src/server_114514.cpp.o[K
+[1.008s] [0/4] Building CXX object CMakeFiles/client_114514.dir/src/client_114514.cpp.o[K
+[1.009s] [1/4] Building CXX object CMakeFiles/client_114514.dir/src/client_114514.cpp.o[K
+[1.009s] [31mFAILED: [0mCMakeFiles/client_114514.dir/src/client_114514.cpp.o 
+[1.009s] /usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -isystem /home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/include/service_114514 -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/client_114514.dir/src/client_114514.cpp.o -MF CMakeFiles/client_114514.dir/src/client_114514.cpp.o.d -o CMakeFiles/client_114514.dir/src/client_114514.cpp.o -c /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli/src/client_114514.cpp
+[1.009s] /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli/src/client_114514.cpp:6:10: fatal error: example_interfaces/srv/add_two_ints.hpp: 没有那个文件或目录
+[1.009s]     6 | #include "example_interfaces/srv/add_two_ints.hpp"
+[1.009s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.009s] compilation terminated.
+[2.959s] 
+[2.959s] [2/4] Building CXX object CMakeFiles/server_114514.dir/src/server_114514.cpp.o[K
+[2.960s] ninja: build stopped: subcommand failed.
+[2.962s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli' returned '1': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli -- -j32 -l32

@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[0.027s] 
+[5.320s] [0/2] Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[K
+[5.320s] [1/2] Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[K
+[5.492s] [1/2] Linking CXX executable listener[K
+[5.492s] [2/2] Linking CXX executable listener[K
+[5.493s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[5.494s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub
+[5.502s] -- Install configuration: ""
+[5.502s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.502s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/listener
+[5.505s] -- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[5.505s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/publisher_114514
+[5.505s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/subscriber_114514
+[5.505s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/launch
+[5.505s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/launch/114514.launch.py
+[5.505s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.505s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.506s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.506s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.507s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub

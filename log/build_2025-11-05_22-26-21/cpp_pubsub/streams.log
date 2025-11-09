@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[0.020s] ninja: no work to do.
+[0.021s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[0.029s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub
+[0.035s] -- Install configuration: ""
+[0.035s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.035s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.035s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/publisher_114514
+[0.035s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/subscriber_114514
+[0.036s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.036s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.036s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.036s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.036s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.036s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.036s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.036s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.036s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.037s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.037s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.037s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.037s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.037s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.037s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.038s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub

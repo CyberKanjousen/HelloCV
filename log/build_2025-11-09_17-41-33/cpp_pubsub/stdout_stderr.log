@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub
+
+[0/8] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[0/8] Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[K
+[0/8] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[0/8] Building CXX object CMakeFiles/subscriber_114514.dir/src/subscriber_114514.cpp.o[K
+[1/8] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[1/8] Linking CXX executable talker[K
+[2/8] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[2/8] Linking CXX executable publisher_114514[K
+[3/8] Linking CXX executable talker[K
+[4/8] Linking CXX executable publisher_114514[K
+[5/8] Building CXX object CMakeFiles/subscriber_114514.dir/src/subscriber_114514.cpp.o[K
+[5/8] Linking CXX executable subscriber_114514[K
+[6/8] Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[K
+[6/8] Linking CXX executable listener[K
+[7/8] Linking CXX executable subscriber_114514[K
+[8/8] Linking CXX executable listener[K
+-- Install configuration: ""
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/listener
+-- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/publisher_114514
+-- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/publisher_114514" to ""
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/subscriber_114514
+-- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/subscriber_114514" to ""
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/launch
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/launch/114514.launch.py
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.xml

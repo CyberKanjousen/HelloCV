@@ -1,0 +1,40 @@
+[0.010s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/learning_tf2_cpp -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp
+[0.128s] -- The C compiler identification is GNU 13.3.0
+[0.200s] -- The CXX compiler identification is GNU 13.3.0
+[0.220s] -- Detecting C compiler ABI info
+[0.287s] -- Detecting C compiler ABI info - done
+[0.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.296s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.388s] -- Detecting CXX compile features
+[0.388s] -- Detecting CXX compile features - done
+[0.392s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.512s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.600s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.633s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.643s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.657s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.669s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.712s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.759s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.760s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.827s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.848s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.872s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.930s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.935s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.047s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.072s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.156s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.156s] -- Configured cppcheck include dirs: 
+[1.156s] -- Configured cppcheck exclude dirs and/or files: 
+[1.156s] -- Added test 'lint_cmake' to check CMake code style
+[1.157s] -- Added test 'uncrustify' to check C / C++ code style
+[1.157s] -- Configured uncrustify additional arguments: 
+[1.158s] -- Added test 'xmllint' to check XML markup files
+[1.159s] -- Configuring done (1.1s)
+[1.170s] -- Generating done (0.0s)
+[1.182s] -- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp

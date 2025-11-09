@@ -1,0 +1,11 @@
+
+[0/2] cd /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514 && /usr/bin/cmake -E copy_directory /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/rosidl_generator_py/service_114514 /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/ament_cmake_python/service_114514/service_114514[K
+[1/2] cd /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514 && /usr/bin/cmake -E copy_directory /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/rosidl_generator_py/service_114514 /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/ament_cmake_python/service_114514/service_114514[K
+[1/2] cd /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/ament_cmake_python/service_114514 && /usr/bin/python3 setup.py egg_info[K
+[2/2] cd /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/ament_cmake_python/service_114514 && /usr/bin/python3 setup.py egg_info[K
+running egg_info
+writing service_114514.egg-info/PKG-INFO
+writing dependency_links to service_114514.egg-info/dependency_links.txt
+writing top-level names to service_114514.egg-info/top_level.txt
+reading manifest file 'service_114514.egg-info/SOURCES.txt'
+writing manifest file 'service_114514.egg-info/SOURCES.txt'

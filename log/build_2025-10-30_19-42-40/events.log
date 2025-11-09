@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000190] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.008873] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.010337] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.010413] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', '--', '-j32', '-l32'], 'cwd': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', 'env': OrderedDict({'TERM_SESSION_ID': '04f67ddf-f8dd-4378-b0d8-8fb54d09540a', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/CLion/3249-1-cyberkanjousen-Legion-Y7000P-IRX10_TIME438921', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAP_INSTANCE_KEY': '', 'USER': 'cyberkanjousen', 'SNAP_COMMON': '/var/snap/clion/common', 'socks_host': 'socks://127.0.0.1:10808', 'XDG_SESSION_TYPE': 'x11', 'SNAP_UID': '1000', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/cyberkanjousen', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void', 'DESKTOP_SESSION': 'ubuntu', 'SNAP_USER_DATA': '/home/cyberkanjousen/snap/clion/393', 'TERMINAL_EMULATOR': 'JetBrains-JediTerm', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/clion_clion.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2871', 'SYSTEMD_EXEC_PID': '3249', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '393', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5782', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'https_proxy': 'http://127.0.0.1:10808', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'cyberkanjousen', 'SNAP_CONTEXT': '7cMq18PPvE0GyoauddMEMHLsazMvDF3aF-ApkkrArLYzdt8gAxjQ', 'http_proxy': 'http://127.0.0.1:10808', 'JOURNAL_STREAM': '9:11682', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'SNAP_VERSION': '2025.2.4', 'USERNAME': 'cyberkanjousen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'clion', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/cyberkanjousen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cyberkanjousen/.local/bin:/home/cyberkanjousen/.local/bin', 'SESSION_MANAGER': 'local/cyberkanjousen-Legion-Y7000P-IRX10:@/tmp/.ICE-unix/3213,unix/cyberkanjousen-Legion-Y7000P-IRX10:/tmp/.ICE-unix/3213', 'INVOCATION_ID': '07373b84d4b1436dabf70a132a33f815', 'XDG_MENU_PREFIX': 'gnome-', 'ftp_proxy': 'ftp://127.0.0.1:10808', 'SNAP_DATA': '/var/snap/clion/393', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'DESKTOP_STARTUP_ID': 'gnome-shell/CLion/3249-1-cyberkanjousen-Legion-Y7000P-IRX10_TIME438921', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SNAP_USER_COMMON': '/home/cyberkanjousen/snap/clion/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SNAP_ARCH': 'amd64', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SNAP_COOKIE': '7cMq18PPvE0GyoauddMEMHLsazMvDF3aF-ApkkrArLYzdt8gAxjQ', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'SNAP_REEXEC': '', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SNAP_NAME': 'clion', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SNAP_REAL_HOME': '/home/cyberkanjousen', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'SNAP': '/snap/clion/393', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'JM_OPTION_PATH': '/home/cyberkanjousen/下载', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.045541] (cpp_pubsub) StdoutLine: {'line': b'\n'}
+[0.045884] (cpp_pubsub) StdoutLine: {'line': b'[0/1] Re-running CMake...\x1b[K\n'}
+[0.086931] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099727] (-) TimerEvent: {}
+[0.200229] (-) TimerEvent: {}
+[0.290609] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.300357] (-) TimerEvent: {}
+[0.328371] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.336997] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.349241] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.366822] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400445] (-) TimerEvent: {}
+[0.434727] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.436696] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500684] (-) TimerEvent: {}
+[0.508130] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.582965] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.600817] (-) TimerEvent: {}
+[0.664941] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[0.677550] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.686165] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub\n'}
+[0.695977] (cpp_pubsub) StdoutLine: {'line': b'\n'}
+[0.696364] (cpp_pubsub) StdoutLine: {'line': b'[0/4] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o\x1b[K\n'}
+[0.700919] (-) TimerEvent: {}
+[0.736743] (cpp_pubsub) StdoutLine: {'line': b'[0/4] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o\x1b[K\n'}
+[0.737101] (cpp_pubsub) StdoutLine: {'line': b'[1/4] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o\x1b[K\n'}
+[0.769215] (cpp_pubsub) StdoutLine: {'line': b'[1/4] Linking CXX executable publisher_114514\x1b[K\n'}
+[0.769422] (cpp_pubsub) StdoutLine: {'line': b'[2/4] Linking CXX executable publisher_114514\x1b[K\n'}
+[0.769479] (cpp_pubsub) StdoutLine: {'line': b'\x1b[31mFAILED: \x1b[0mpublisher_114514 \n'}
+[0.769522] (cpp_pubsub) StdoutLine: {'line': b': && /usr/bin/c++   CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o -o publisher_114514   && :\n'}
+[0.769563] (cpp_pubsub) StdoutLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.769600] (cpp_pubsub) StdoutLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.769643] (cpp_pubsub) StdoutLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.801016] (-) TimerEvent: {}
+[0.901216] (-) TimerEvent: {}
+[1.001485] (-) TimerEvent: {}
+[1.101762] (-) TimerEvent: {}
+[1.202040] (-) TimerEvent: {}
+[1.302278] (-) TimerEvent: {}
+[1.402524] (-) TimerEvent: {}
+[1.502817] (-) TimerEvent: {}
+[1.603079] (-) TimerEvent: {}
+[1.703340] (-) TimerEvent: {}
+[1.803566] (-) TimerEvent: {}
+[1.903790] (-) TimerEvent: {}
+[2.004049] (-) TimerEvent: {}
+[2.104313] (-) TimerEvent: {}
+[2.204540] (-) TimerEvent: {}
+[2.304850] (-) TimerEvent: {}
+[2.405101] (-) TimerEvent: {}
+[2.505343] (-) TimerEvent: {}
+[2.605632] (-) TimerEvent: {}
+[2.705910] (-) TimerEvent: {}
+[2.806231] (-) TimerEvent: {}
+[2.906562] (-) TimerEvent: {}
+[3.006898] (-) TimerEvent: {}
+[3.107175] (-) TimerEvent: {}
+[3.207405] (-) TimerEvent: {}
+[3.247143] (cpp_pubsub) StdoutLine: {'line': b'\n'}
+[3.247278] (cpp_pubsub) StdoutLine: {'line': b'[3/4] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o\x1b[K\n'}
+[3.247330] (cpp_pubsub) StdoutLine: {'line': b'ninja: build stopped: subcommand failed.\n'}
+[3.249510] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[3.263013] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[3.273931] (-) EventReactorShutdown: {}

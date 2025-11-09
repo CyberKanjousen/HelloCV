@@ -1,0 +1,48 @@
+[0.011s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub
+[0.132s] -- The C compiler identification is GNU 13.3.0
+[0.201s] -- The CXX compiler identification is GNU 13.3.0
+[0.223s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.295s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.296s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.387s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.387s] -- Detecting CXX compile features
+[0.387s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.516s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.603s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.635s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.645s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.672s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.735s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.738s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.809s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.831s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.853s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.919s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.006s] -- Configuring done (1.0s)
+[1.018s] -- Generating done (0.0s)
+[1.031s] -- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub
+[1.040s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub
+[1.041s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[1.054s] 
+[1.054s] [0/8] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[1.055s] [0/8] Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[K
+[1.055s] [0/8] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[4.197s] [0/8] Building CXX object CMakeFiles/subscriber_114514.dir/src/subscriber_114514.cpp.o[K
+[4.198s] [1/8] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[4.200s] [1/8] Linking CXX executable publisher_114514[K
+[4.200s] [2/8] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[4.312s] [2/8] Linking CXX executable talker[K
+[4.314s] [3/8] Linking CXX executable talker[K
+[6.465s] [4/8] Linking CXX executable publisher_114514[K
+[6.465s] [5/8] Building CXX object CMakeFiles/subscriber_114514.dir/src/subscriber_114514.cpp.o[K
+[6.466s] [5/8] Linking CXX executable subscriber_114514[K
+[6.466s] [6/8] Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[K
+[6.636s] [6/8] Linking CXX executable listener[K
+[6.637s] [7/8] Linking CXX executable subscriber_114514[K
+[6.637s] [8/8] Linking CXX executable listener[K

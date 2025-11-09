@@ -1,0 +1,6 @@
+[0.011s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp -- -j32 -l32
+[0.024s] 
+[2.668s] [0/2] Building CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[K
+[2.669s] [1/2] Building CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[K
+[2.833s] [1/2] Linking CXX executable static_turtle_tf2_broadcaster[K
+[2.833s] [2/2] Linking CXX executable static_turtle_tf2_broadcaster[K

@@ -1,0 +1,29 @@
+
+[0/1] Re-running CMake...[K
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub
+
+[0/4] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[0/4] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[1/4] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[1/4] Linking CXX executable publisher_114514[K
+[2/4] Linking CXX executable publisher_114514[K
+[31mFAILED: [0mpublisher_114514 
+: && /usr/bin/c++   CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o -o publisher_114514   && :
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+[3/4] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+ninja: build stopped: subcommand failed.

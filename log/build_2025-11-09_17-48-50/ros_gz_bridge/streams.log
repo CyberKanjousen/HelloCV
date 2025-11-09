@@ -1,0 +1,47 @@
+[0.010s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_bridge -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge
+[0.087s] -- The C compiler identification is GNU 13.3.0
+[0.155s] -- The CXX compiler identification is GNU 13.3.0
+[0.183s] -- Detecting C compiler ABI info
+[0.268s] -- Detecting C compiler ABI info - done
+[0.280s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.280s] -- Detecting C compile features
+[0.281s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.407s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.407s] -- Detecting CXX compile features
+[0.408s] -- Detecting CXX compile features - done
+[0.410s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.561s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.645s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.680s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.770s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.772s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.854s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.880s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.907s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.964s] -- Found rclcpp_components: 28.1.12 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.991s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[0.991s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.001s] -- Configuring incomplete, errors occurred!
+[1.001s] [31mCMake Error at CMakeLists.txt:20 (find_package):
+[1.001s]   By not providing "Findgz_transport_vendor.cmake" in CMAKE_MODULE_PATH this
+[1.001s]   project has asked CMake to find a package configuration file provided by
+[1.001s]   "gz_transport_vendor", but CMake did not find one.
+[1.001s] 
+[1.001s]   Could not find a package configuration file provided by
+[1.001s]   "gz_transport_vendor" with any of the following names:
+[1.001s] 
+[1.002s]     gz_transport_vendorConfig.cmake
+[1.002s]     gz_transport_vendor-config.cmake
+[1.002s] 
+[1.002s]   Add the installation prefix of "gz_transport_vendor" to CMAKE_PREFIX_PATH
+[1.002s]   or set "gz_transport_vendor_DIR" to a directory containing one of the above
+[1.002s]   files.  If "gz_transport_vendor" provides a separate development package or
+[1.002s]   SDK, be sure it has been installed.
+[1.002s] 
+[1.002s] [0m
+[1.008s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_bridge' returned '1': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_bridge -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge

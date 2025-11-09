@@ -1,0 +1,75 @@
+[0.005s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub
+[0.063s] -- The C compiler identification is GNU 13.3.0
+[0.112s] -- The CXX compiler identification is GNU 13.3.0
+[0.128s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.243s] -- Detecting CXX compiler ABI info
+[0.339s] -- Detecting CXX compiler ABI info - done
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.347s] -- Detecting CXX compile features
+[0.348s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.472s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.543s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.568s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.577s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.599s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.651s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.653s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.720s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.739s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.756s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.808s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.880s] -- Configuring done (0.9s)
+[0.890s] -- Generating done (0.0s)
+[0.902s] -- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub
+[0.911s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub
+[0.912s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[0.921s] 
+[0.921s] [0/8] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[0.922s] [0/8] Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[K
+[0.922s] [0/8] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[3.561s] [0/8] Building CXX object CMakeFiles/subscriber_114514.dir/src/subscriber_114514.cpp.o[K
+[3.561s] [1/8] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[3.571s] [1/8] Linking CXX executable publisher_114514[K
+[3.571s] [2/8] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[3.663s] [2/8] Linking CXX executable talker[K
+[3.668s] [3/8] Linking CXX executable publisher_114514[K
+[5.503s] [4/8] Linking CXX executable talker[K
+[5.503s] [5/8] Building CXX object CMakeFiles/subscriber_114514.dir/src/subscriber_114514.cpp.o[K
+[5.512s] [5/8] Linking CXX executable subscriber_114514[K
+[5.512s] [6/8] Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[K
+[5.659s] [6/8] Linking CXX executable listener[K
+[5.668s] [7/8] Linking CXX executable subscriber_114514[K
+[5.668s] [8/8] Linking CXX executable listener[K
+[5.670s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[5.670s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub
+[5.678s] -- Install configuration: ""
+[5.678s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.680s] -- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[5.680s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/listener
+[5.682s] -- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[5.682s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/publisher_114514
+[5.683s] -- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/publisher_114514" to ""
+[5.683s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/subscriber_114514
+[5.686s] -- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/subscriber_114514" to ""
+[5.686s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.686s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.686s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.686s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.686s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.686s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.686s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.686s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.686s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.686s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.687s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.687s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.687s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.687s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.687s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.688s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub

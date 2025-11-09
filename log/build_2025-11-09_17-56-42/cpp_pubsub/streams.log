@@ -1,0 +1,18 @@
+[0.012s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[0.024s] 
+[0.024s] [0/8] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[0.024s] [0/8] Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[K
+[0.024s] [0/8] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[2.767s] [0/8] Building CXX object CMakeFiles/subscriber_114514.dir/src/subscriber_114514.cpp.o[K
+[2.767s] [1/8] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o[K
+[2.865s] [1/8] Linking CXX executable publisher_114514[K
+[2.865s] [2/8] Building CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[K
+[2.868s] [2/8] Linking CXX executable talker[K
+[2.968s] [3/8] Linking CXX executable publisher_114514[K
+[5.271s] [4/8] Linking CXX executable talker[K
+[5.271s] [5/8] Building CXX object CMakeFiles/subscriber_114514.dir/src/subscriber_114514.cpp.o[K
+[5.346s] [5/8] Linking CXX executable subscriber_114514[K
+[5.346s] [6/8] Building CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[K
+[5.466s] [6/8] Linking CXX executable listener[K
+[5.520s] [7/8] Linking CXX executable subscriber_114514[K
+[5.520s] [8/8] Linking CXX executable listener[K

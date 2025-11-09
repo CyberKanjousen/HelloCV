@@ -1,0 +1,36 @@
+[0.014s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/gz_transport_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/gz_transport_vendor-jazzy -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/gz_transport_vendor
+[0.056s] -- The C compiler identification is GNU 13.3.0
+[0.107s] -- The CXX compiler identification is GNU 13.3.0
+[0.122s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.264s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.270s] -- Detecting CXX compile features - done
+[0.272s] -- Found ament_cmake_core: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_core/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.437s] [31mCMake Error at CMakeLists.txt:31 (find_package):
+[0.437s]   By not providing "Findament_cmake_vendor_package.cmake" in
+[0.437s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.437s]   configuration file provided by "ament_cmake_vendor_package", but CMake did
+[0.438s]   not find one.
+[0.438s] 
+[0.438s]   Could not find a package configuration file provided by
+[0.438s]   "ament_cmake_vendor_package" with any of the following names:
+[0.438s] 
+[0.438s]     ament_cmake_vendor_packageConfig.cmake
+[0.438s]     ament_cmake_vendor_package-config.cmake
+[0.438s] 
+[0.438s]   Add the installation prefix of "ament_cmake_vendor_package" to
+[0.438s]   CMAKE_PREFIX_PATH or set "ament_cmake_vendor_package_DIR" to a directory
+[0.438s]   containing one of the above files.  If "ament_cmake_vendor_package"
+[0.438s]   provides a separate development package or SDK, be sure it has been
+[0.438s]   installed.
+[0.439s] 
+[0.439s] [0m
+[0.439s] -- Configuring incomplete, errors occurred!
+[0.441s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/gz_transport_vendor' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/gz_transport_vendor-jazzy -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/gz_transport_vendor

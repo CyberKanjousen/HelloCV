@@ -1,0 +1,13 @@
+
+[0/2] Building CXX object CMakeFiles/avoid_wall.dir/src/AvoidWall.cpp.o[K
+[1/2] Building CXX object CMakeFiles/avoid_wall.dir/src/AvoidWall.cpp.o[K
+/home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp: In function ‘int main(int, char**)’:
+/home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp:40:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+   40 | int main(int argc, char **argv)
+      |          ~~~~^~~~
+/home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp:40:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+   40 | int main(int argc, char **argv)
+      |                    ~~~~~~~^~~~
+
+[1/2] Linking CXX executable avoid_wall[K
+[2/2] Linking CXX executable avoid_wall[K

@@ -1,0 +1,68 @@
+[0.007s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/learning_tf2_cpp -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp
+[0.065s] -- The C compiler identification is GNU 13.3.0
+[0.108s] -- The CXX compiler identification is GNU 13.3.0
+[0.123s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.184s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.284s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.397s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.473s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.500s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.508s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.532s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.576s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.620s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.622s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.692s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.710s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.727s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.784s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.788s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.916s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.938s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.024s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.024s] -- Configured cppcheck include dirs: 
+[1.024s] -- Configured cppcheck exclude dirs and/or files: 
+[1.024s] -- Added test 'lint_cmake' to check CMake code style
+[1.025s] -- Added test 'uncrustify' to check C / C++ code style
+[1.025s] -- Configured uncrustify additional arguments: 
+[1.025s] -- Added test 'xmllint' to check XML markup files
+[1.026s] -- Configuring done (1.0s)
+[1.034s] -- Generating done (0.0s)
+[1.047s] -- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp
+[1.056s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/learning_tf2_cpp -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp
+[1.057s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp -- -j32 -l32
+[1.070s] 
+[3.933s] [0/2] Building CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[K
+[3.934s] [1/2] Building CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[K
+[4.054s] [1/2] Linking CXX executable static_turtle_tf2_broadcaster[K
+[4.054s] [2/2] Linking CXX executable static_turtle_tf2_broadcaster[K
+[4.056s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp -- -j32 -l32
+[4.057s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp
+[4.066s] -- Install configuration: ""
+[4.066s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[4.066s] -- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster" to ""
+[4.066s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[4.066s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[4.067s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[4.067s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[4.067s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[4.067s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[4.067s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[4.067s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[4.068s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[4.068s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[4.068s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[4.068s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[4.068s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[4.068s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[4.068s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[4.069s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp

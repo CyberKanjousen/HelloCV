@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/service_114514__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "service_114514::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "service_114514__py::@d4853b2429e52fe5a3f0",
+	"name" : "service_114514__py",
+	"paths" : 
+	{
+		"build" : "service_114514__py",
+		"source" : "/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/service_114514__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/service_114514__py/CMakeFiles/service_114514__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/service_114514__py/CMakeFiles/service_114514__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/rosidl_generator_py/service_114514/_service_114514_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

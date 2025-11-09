@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "service_114514__py",
+		"source" : "/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/service_114514__py"
+	}
+}

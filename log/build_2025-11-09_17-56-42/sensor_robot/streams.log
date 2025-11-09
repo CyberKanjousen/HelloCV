@@ -1,0 +1,14 @@
+[0.014s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot -- -j32 -l32
+[0.024s] 
+[0.901s] [0/2] Building CXX object CMakeFiles/avoid_wall.dir/src/AvoidWall.cpp.o[K
+[0.901s] [1/2] Building CXX object CMakeFiles/avoid_wall.dir/src/AvoidWall.cpp.o[K
+[0.901s] /home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp: In function ‘int main(int, char**)’:
+[0.901s] /home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp:40:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+[0.901s]    40 | int main(int argc, char **argv)
+[0.901s]       |          ~~~~^~~~
+[0.902s] /home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp:40:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+[0.902s]    40 | int main(int argc, char **argv)
+[0.902s]       |                    ~~~~~~~^~~~
+[0.902s] 
+[1.003s] [1/2] Linking CXX executable avoid_wall[K
+[1.003s] [2/2] Linking CXX executable avoid_wall[K

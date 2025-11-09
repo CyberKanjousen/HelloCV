@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot",
+  "command": "/usr/bin/c++ -isystem /usr/include/gz/transport13 -isystem /opt/ros/jazzy/opt/gz_utils_vendor/include/gz/utils2 -isystem /usr/include/gz/msgs10 -isystem /opt/ros/jazzy/opt/gz_math_vendor/include/gz/math7 -isystem /usr/include/uuid -Wall -Wextra -Wpedantic -I/usr/include -I/usr/include/uuid -o CMakeFiles/avoid_wall.dir/src/AvoidWall.cpp.o -c /home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp",
+  "file": "/home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp",
+  "output": "CMakeFiles/avoid_wall.dir/src/AvoidWall.cpp.o"
+}
+]

@@ -1,0 +1,12 @@
+[0.014s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514 -- -j32 -l32
+[0.027s] 
+[0.034s] [0/2] cd /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514 && /usr/bin/cmake -E copy_directory /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/rosidl_generator_py/service_114514 /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/ament_cmake_python/service_114514/service_114514[K
+[0.034s] [1/2] cd /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514 && /usr/bin/cmake -E copy_directory /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/rosidl_generator_py/service_114514 /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/ament_cmake_python/service_114514/service_114514[K
+[0.238s] [1/2] cd /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/ament_cmake_python/service_114514 && /usr/bin/python3 setup.py egg_info[K
+[0.238s] [2/2] cd /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/ament_cmake_python/service_114514 && /usr/bin/python3 setup.py egg_info[K
+[0.238s] running egg_info
+[0.239s] writing service_114514.egg-info/PKG-INFO
+[0.239s] writing dependency_links to service_114514.egg-info/dependency_links.txt
+[0.239s] writing top-level names to service_114514.egg-info/top_level.txt
+[0.239s] reading manifest file 'service_114514.egg-info/SOURCES.txt'
+[0.239s] writing manifest file 'service_114514.egg-info/SOURCES.txt'

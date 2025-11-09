@@ -1,0 +1,605 @@
+[0.066s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']
+[0.067s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x78cf94e7a2a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78cf94e79a00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78cf94e79a00>>)
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.092s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cyberkanjousen/CLionProjects/ROS2_1'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/learning_tf2_cpp) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learning_tf2_cpp' with type 'ros.ament_cmake' and name 'learning_tf2_cpp'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz' with type 'ros.ament_cmake' and name 'ros_gz'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_bridge) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz_bridge' with type 'ros.ament_cmake' and name 'ros_gz_bridge'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_image) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_image) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_image) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_image) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_image) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_image) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_image) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_image) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_image) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz_image' with type 'ros.ament_cmake' and name 'ros_gz_image'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_interfaces) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_interfaces) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_interfaces) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_interfaces) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_interfaces) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_interfaces) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_interfaces) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_interfaces) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz_interfaces' with type 'ros.ament_cmake' and name 'ros_gz_interfaces'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_point_cloud) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_point_cloud) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_point_cloud) ignored
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_sim) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_sim) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_sim) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_sim) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_sim) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_sim) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_sim) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_gz_sim) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_gz_sim' with type 'ros.ament_cmake' and name 'ros_gz_sim'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_robot) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_robot) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_robot) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_robot) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_robot) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_robot) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_robot) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_robot) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_robot' with type 'ros.ament_cmake' and name 'sensor_robot'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_114514) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_114514) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_114514) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_114514) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_114514) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_114514) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_114514) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_114514) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_114514) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_114514' with type 'ros.ament_cmake' and name 'service_114514'
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.138s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/cyberkanjousen/CLionProjects/ROS2_1/install
+[0.138s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub', 'merge_install': False, 'path': '/home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'learning_tf2_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'learning_tf2_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp', 'merge_install': False, 'path': '/home/cyberkanjousen/CLionProjects/ROS2_1/src/learning_tf2_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces', 'merge_install': False, 'path': '/home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'sensor_robot' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'sensor_robot' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'sensor_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'sensor_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'sensor_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'sensor_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'sensor_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'sensor_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'sensor_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot', 'merge_install': False, 'path': '/home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'service_114514' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'service_114514' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'service_114514' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'service_114514' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'service_114514' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'service_114514' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'service_114514' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'service_114514' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'service_114514' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'service_114514' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514', 'merge_install': False, 'path': '/home/cyberkanjousen/CLionProjects/ROS2_1/src/service_114514', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli', 'merge_install': False, 'path': '/home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge', 'merge_install': False, 'path': '/home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_image' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_image' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_image', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_image', 'merge_install': False, 'path': '/home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_image', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_sim', 'merge_install': False, 'path': '/home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_sim', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja']'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ros_gz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'ros_gz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-G', 'Ninja'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz', 'merge_install': False, 'path': '/home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz', 'symlink_install': False, 'test_result_base': None}
+[0.166s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.166s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.166s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_interfaces' with build type 'ament_cmake'
+[0.166s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_interfaces'
+[0.168s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.170s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/service_114514' with build type 'ament_cmake'
+[0.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/service_114514'
+[0.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.172s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub' with build type 'ament_cmake'
+[0.173s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub'
+[0.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.173s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.175s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/learning_tf2_cpp' with build type 'ament_cmake'
+[0.175s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/learning_tf2_cpp'
+[0.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot' with build type 'ament_cmake'
+[0.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot'
+[0.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces
+[0.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/service_114514 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514
+[0.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub
+[0.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/learning_tf2_cpp -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp
+[0.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot
+[0.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot -- -j32 -l32
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub
+[1.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[1.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/learning_tf2_cpp -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp
+[1.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp -- -j32 -l32
+[1.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot -- -j32 -l32
+[1.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot
+[1.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_robot)
+[1.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot' for CMake module files
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot' for CMake config files
+[1.935s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_robot', 'cmake_prefix_path')
+[1.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/hook/cmake_prefix_path.ps1'
+[1.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/hook/cmake_prefix_path.dsv'
+[1.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/hook/cmake_prefix_path.sh'
+[1.937s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/bin'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/lib/pkgconfig/sensor_robot.pc'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/lib/python3.12/site-packages'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/bin'
+[1.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.ps1'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.dsv'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.sh'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.bash'
+[1.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.zsh'
+[1.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/colcon-core/packages/sensor_robot)
+[1.942s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_robot)
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot' for CMake module files
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot' for CMake config files
+[1.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_robot', 'cmake_prefix_path')
+[1.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/hook/cmake_prefix_path.ps1'
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/hook/cmake_prefix_path.dsv'
+[1.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/hook/cmake_prefix_path.sh'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/bin'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/lib/pkgconfig/sensor_robot.pc'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/lib/python3.12/site-packages'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/bin'
+[1.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.ps1'
+[1.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.sh'
+[1.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.bash'
+[1.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.zsh'
+[1.945s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/colcon-core/packages/sensor_robot)
+[2.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/service_114514 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514
+[2.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514 -- -j32 -l32
+[3.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces
+[3.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces -- -j32 -l32
+[3.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp -- -j32 -l32
+[3.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp
+[3.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf2_cpp)
+[3.858s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp' for CMake module files
+[3.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/learning_tf2_cpp
+[3.859s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp' for CMake config files
+[3.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2_cpp', 'cmake_prefix_path')
+[3.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.ps1'
+[3.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.dsv'
+[3.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.sh'
+[3.860s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/lib'
+[3.860s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/bin'
+[3.860s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/lib/pkgconfig/learning_tf2_cpp.pc'
+[3.861s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/lib/python3.12/site-packages'
+[3.861s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/bin'
+[3.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.ps1'
+[3.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv'
+[3.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.sh'
+[3.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.bash'
+[3.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.zsh'
+[3.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/colcon-core/packages/learning_tf2_cpp)
+[3.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learning_tf2_cpp)
+[3.862s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp' for CMake module files
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp' for CMake config files
+[3.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('learning_tf2_cpp', 'cmake_prefix_path')
+[3.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.ps1'
+[3.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.dsv'
+[3.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/hook/cmake_prefix_path.sh'
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/lib'
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/bin'
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/lib/pkgconfig/learning_tf2_cpp.pc'
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/lib/python3.12/site-packages'
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/bin'
+[3.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.ps1'
+[3.864s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv'
+[3.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.sh'
+[3.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.bash'
+[3.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.zsh'
+[3.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/colcon-core/packages/learning_tf2_cpp)
+[4.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514 -- -j32 -l32
+[4.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514
+[4.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_114514)
+[4.172s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514' for CMake module files
+[4.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514
+[4.172s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514' for CMake config files
+[4.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_114514', 'cmake_prefix_path')
+[4.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/cmake_prefix_path.ps1'
+[4.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/cmake_prefix_path.dsv'
+[4.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/cmake_prefix_path.sh'
+[4.173s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib'
+[4.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_114514', 'ld_library_path_lib')
+[4.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/ld_library_path_lib.ps1'
+[4.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/ld_library_path_lib.dsv'
+[4.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/ld_library_path_lib.sh'
+[4.174s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/bin'
+[4.174s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/pkgconfig/service_114514.pc'
+[4.174s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages'
+[4.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_114514', 'pythonpath')
+[4.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/pythonpath.ps1'
+[4.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/pythonpath.dsv'
+[4.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/pythonpath.sh'
+[4.175s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/bin'
+[4.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/package.ps1'
+[4.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/package.dsv'
+[4.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/package.sh'
+[4.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/package.bash'
+[4.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/package.zsh'
+[4.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/colcon-core/packages/service_114514)
+[4.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_114514)
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514' for CMake module files
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514' for CMake config files
+[4.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_114514', 'cmake_prefix_path')
+[4.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/cmake_prefix_path.ps1'
+[4.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/cmake_prefix_path.dsv'
+[4.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/cmake_prefix_path.sh'
+[4.178s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib'
+[4.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_114514', 'ld_library_path_lib')
+[4.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/ld_library_path_lib.ps1'
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/ld_library_path_lib.dsv'
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/ld_library_path_lib.sh'
+[4.179s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/bin'
+[4.179s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/pkgconfig/service_114514.pc'
+[4.179s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages'
+[4.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_114514', 'pythonpath')
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/pythonpath.ps1'
+[4.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/pythonpath.dsv'
+[4.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/hook/pythonpath.sh'
+[4.180s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/bin'
+[4.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/package.ps1'
+[4.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/package.dsv'
+[4.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/package.sh'
+[4.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/package.bash'
+[4.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/package.zsh'
+[4.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/colcon-core/packages/service_114514)
+[4.182s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli' with build type 'ament_cmake'
+[4.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli'
+[4.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli
+[5.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli
+[5.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli -- -j32 -l32
+[5.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub -- -j32 -l32
+[5.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub
+[5.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[5.876s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub' for CMake module files
+[5.877s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub' for CMake config files
+[5.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub
+[5.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[5.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[5.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[5.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[5.884s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib'
+[5.884s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/bin'
+[5.884s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[5.884s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/python3.12/site-packages'
+[5.885s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/bin'
+[5.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[5.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[5.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[5.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[5.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[5.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[5.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub' for CMake module files
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub' for CMake config files
+[5.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[5.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[5.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[5.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/bin'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/python3.12/site-packages'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/bin'
+[5.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[5.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[5.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[5.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[5.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[5.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[7.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli -- -j32 -l32
+[7.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli': CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli
+[7.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[7.639s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli' for CMake module files
+[7.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli
+[7.640s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli' for CMake config files
+[7.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[7.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[7.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[7.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[7.642s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib'
+[7.642s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/bin'
+[7.642s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[7.643s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/python3.12/site-packages'
+[7.643s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/bin'
+[7.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[7.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[7.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[7.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[7.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[7.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[7.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[7.646s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli' for CMake module files
+[7.647s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli' for CMake config files
+[7.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[7.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[7.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[7.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[7.649s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib'
+[7.649s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/bin'
+[7.649s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[7.649s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/python3.12/site-packages'
+[7.650s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/bin'
+[7.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[7.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[7.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[7.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[7.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[7.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[11.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces -- -j32 -l32
+[11.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces
+[11.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_interfaces)
+[11.730s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces' for CMake module files
+[11.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_interfaces
+[11.731s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces' for CMake config files
+[11.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'cmake_prefix_path')
+[11.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.ps1'
+[11.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.dsv'
+[11.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.sh'
+[11.733s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib'
+[11.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'ld_library_path_lib')
+[11.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.ps1'
+[11.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.dsv'
+[11.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.sh'
+[11.734s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/bin'
+[11.735s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib/pkgconfig/ros_gz_interfaces.pc'
+[11.735s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib/python3.12/site-packages'
+[11.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'pythonpath')
+[11.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/pythonpath.ps1'
+[11.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/pythonpath.dsv'
+[11.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/pythonpath.sh'
+[11.736s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/bin'
+[11.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/package.ps1'
+[11.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv'
+[11.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/package.sh'
+[11.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/package.bash'
+[11.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/package.zsh'
+[11.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/colcon-core/packages/ros_gz_interfaces)
+[11.738s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_interfaces)
+[11.738s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces' for CMake module files
+[11.739s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces' for CMake config files
+[11.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'cmake_prefix_path')
+[11.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.ps1'
+[11.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.dsv'
+[11.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/cmake_prefix_path.sh'
+[11.740s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib'
+[11.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'ld_library_path_lib')
+[11.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.ps1'
+[11.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.dsv'
+[11.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/ld_library_path_lib.sh'
+[11.741s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/bin'
+[11.741s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib/pkgconfig/ros_gz_interfaces.pc'
+[11.741s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib/python3.12/site-packages'
+[11.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_gz_interfaces', 'pythonpath')
+[11.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/pythonpath.ps1'
+[11.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/pythonpath.dsv'
+[11.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/hook/pythonpath.sh'
+[11.742s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/bin'
+[11.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/package.ps1'
+[11.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/package.dsv'
+[11.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/package.sh'
+[11.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/package.bash'
+[11.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/ros_gz_interfaces/package.zsh'
+[11.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/share/colcon-core/packages/ros_gz_interfaces)
+[11.743s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_bridge' with build type 'ament_cmake'
+[11.743s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_bridge'
+[11.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_bridge': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_bridge -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge
+[12.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/ros_gz_bridge' returned '1': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli:/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot:/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp:/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/ros_gz_bridge -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge
+[12.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_gz_bridge)
+[12.756s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge' for CMake module files
+[12.756s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge' for CMake config files
+[12.756s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge/bin'
+[12.756s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge/lib/pkgconfig/ros_gz_bridge.pc'
+[12.757s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge/lib/python3.12/site-packages'
+[12.757s] Level 1:colcon.colcon_core.environment:checking '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge/bin'
+[12.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge/share/ros_gz_bridge/package.ps1'
+[12.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge/share/ros_gz_bridge/package.dsv'
+[12.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge/share/ros_gz_bridge/package.sh'
+[12.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge/share/ros_gz_bridge/package.bash'
+[12.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge/share/ros_gz_bridge/package.zsh'
+[12.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyberkanjousen/CLionProjects/ROS2_1/install/ros_gz_bridge/share/colcon-core/packages/ros_gz_bridge)
+[12.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[12.768s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.776s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.793s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/local_setup.ps1'
+[12.794s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cyberkanjousen/CLionProjects/ROS2_1/install/_local_setup_util_ps1.py'
+[12.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/setup.ps1'
+[12.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/local_setup.sh'
+[12.796s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cyberkanjousen/CLionProjects/ROS2_1/install/_local_setup_util_sh.py'
+[12.797s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/setup.sh'
+[12.797s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/local_setup.bash'
+[12.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/setup.bash'
+[12.798s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/local_setup.zsh'
+[12.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyberkanjousen/CLionProjects/ROS2_1/install/setup.zsh'

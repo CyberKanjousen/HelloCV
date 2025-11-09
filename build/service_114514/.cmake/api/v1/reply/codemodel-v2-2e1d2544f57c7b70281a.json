@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2fe0e038f64b50c5b239.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "service_114514__py",
+					"jsonFile" : "directory-service_114514__py-547e9f17da8b18886d95.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/service_114514__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "service_114514",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_service_114514_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_service_114514_egg-5b8b705a2a1bc499e64e.json",
+					"name" : "ament_cmake_python_build_service_114514_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_service_114514::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_service_114514-ebc611c8b35a2ef668a1.json",
+					"name" : "ament_cmake_python_copy_service_114514",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514-28b5ef670f3e1c2ce147.json",
+					"name" : "service_114514",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514__cpp-735b7cad896ef7c1af51.json",
+					"name" : "service_114514__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "service_114514__py::@d4853b2429e52fe5a3f0",
+					"jsonFile" : "target-service_114514__py-67d9a381adee2b624bba.json",
+					"name" : "service_114514__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514__rosidl_generator_c-83111017064e50c703fa.json",
+					"name" : "service_114514__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514__rosidl_generator_py-42ebf4df57f03a281b2d.json",
+					"name" : "service_114514__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514__rosidl_generator_type_description-b6cbf7e55a641c75647c.json",
+					"name" : "service_114514__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514__rosidl_typesupport_c-61fec7d183d8468f9834.json",
+					"name" : "service_114514__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514__rosidl_typesupport_cpp-ae24a6639f9541b5cbbb.json",
+					"name" : "service_114514__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514__rosidl_typesupport_fastrtps_c-39609d30af0a4557e247.json",
+					"name" : "service_114514__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514__rosidl_typesupport_fastrtps_cpp-12d69ea8feb95309a6ed.json",
+					"name" : "service_114514__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514__rosidl_typesupport_introspection_c-b7864a712cce3a4d80db.json",
+					"name" : "service_114514__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514__rosidl_typesupport_introspection_cpp-6f63f51d62f6b3e4eb8e.json",
+					"name" : "service_114514__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514_s__rosidl_typesupport_c-64e155cbc747d5bf10ef.json",
+					"name" : "service_114514_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514_s__rosidl_typesupport_fastrtps_c-37bdb7fb146618ce011b.json",
+					"name" : "service_114514_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514_s__rosidl_typesupport_introspection_c-cbd3761352ec896bf1f2.json",
+					"name" : "service_114514_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_114514_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_114514_uninstall-a596e63522765b637f9f.json",
+					"name" : "service_114514_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ca905147b66e49d28d76.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514",
+		"source" : "/home/cyberkanjousen/CLionProjects/ROS2_1/src/service_114514"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

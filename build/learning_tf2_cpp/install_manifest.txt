@@ -1,0 +1,16 @@
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+/home/cyberkanjousen/CLionProjects/ROS2_1/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml

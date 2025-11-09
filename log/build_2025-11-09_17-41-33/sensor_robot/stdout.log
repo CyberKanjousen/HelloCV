@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot
+
+[0/2] Building CXX object CMakeFiles/avoid_wall.dir/src/AvoidWall.cpp.o[K
+[1/2] Building CXX object CMakeFiles/avoid_wall.dir/src/AvoidWall.cpp.o[K
+/home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp: In function ‘int main(int, char**)’:
+/home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp:40:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+   40 | int main(int argc, char **argv)
+      |          ~~~~^~~~
+/home/cyberkanjousen/CLionProjects/ROS2_1/src/sensor_robot/src/AvoidWall.cpp:40:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+   40 | int main(int argc, char **argv)
+      |                    ~~~~~~~^~~~
+
+[1/2] Linking CXX executable avoid_wall[K
+[2/2] Linking CXX executable avoid_wall[K
+-- Install configuration: ""
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/ament_index/resource_index/package_run_dependencies/sensor_robot
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/ament_index/resource_index/parent_prefix_path/sensor_robot
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/environment/ament_prefix_path.sh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/environment/path.sh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/environment/path.dsv
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/local_setup.bash
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/local_setup.sh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/local_setup.zsh
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/local_setup.dsv
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.dsv
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/ament_index/resource_index/packages/sensor_robot
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/cmake/sensor_robotConfig.cmake
+-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/cmake/sensor_robotConfig-version.cmake
+-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/sensor_robot/share/sensor_robot/package.xml

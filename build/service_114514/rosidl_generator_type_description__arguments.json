@@ -1,0 +1,11 @@
+{
+  "package_name": "service_114514",
+  "output_dir": "/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/rosidl_generator_type_description/service_114514",
+  "idl_tuples": [
+    "/home/cyberkanjousen/CLionProjects/ROS2_1/build/service_114514/rosidl_adapter/service_114514:srv/AddTwoInts.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,32 @@
+[0.005s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub
+[0.059s] -- The C compiler identification is GNU 13.3.0
+[0.102s] -- The CXX compiler identification is GNU 13.3.0
+[0.117s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.250s] -- Detecting CXX compile features
+[0.251s] -- Detecting CXX compile features - done
+[0.261s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.262s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.262s]   has asked CMake to find a package configuration file provided by
+[0.262s]   "ament_cmake", but CMake did not find one.
+[0.262s] 
+[0.262s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.262s]   any of the following names:
+[0.262s] 
+[0.262s]     ament_cmakeConfig.cmake
+[0.262s]     ament_cmake-config.cmake
+[0.262s] 
+[0.262s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.262s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.262s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.262s]   has been installed.
+[0.263s] 
+[0.263s] [0m
+[0.263s] -- Configuring incomplete, errors occurred!
+[0.265s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub

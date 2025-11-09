@@ -1,0 +1,71 @@
+[0.008s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli
+[0.061s] -- The C compiler identification is GNU 13.3.0
+[0.105s] -- The CXX compiler identification is GNU 13.3.0
+[0.124s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.393s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.474s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.509s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.519s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.602s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.604s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.673s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.690s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.767s] -- Found service_114514: 0.0.0 (/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/share/service_114514/cmake)
+[0.780s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.862s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.862s] -- Configured cppcheck include dirs: 
+[0.862s] -- Configured cppcheck exclude dirs and/or files: 
+[0.862s] -- Added test 'lint_cmake' to check CMake code style
+[0.863s] -- Added test 'uncrustify' to check C / C++ code style
+[0.863s] -- Configured uncrustify additional arguments: 
+[0.863s] -- Added test 'xmllint' to check XML markup files
+[0.864s] -- Configuring done (0.8s)
+[0.873s] -- Generating done (0.0s)
+[0.885s] -- Build files have been written to: /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli
+[0.895s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cyberkanjousen/CLionProjects/ROS2_1/src/cpp_srvcli -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli
+[0.895s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli -- -j32 -l32
+[0.906s] 
+[0.906s] [0/4] Building CXX object CMakeFiles/server_114514.dir/src/server_114514.cpp.o[K
+[3.513s] [0/4] Building CXX object CMakeFiles/client_114514.dir/src/client_114514.cpp.o[K
+[3.514s] [1/4] Building CXX object CMakeFiles/server_114514.dir/src/server_114514.cpp.o[K
+[3.603s] [1/4] Linking CXX executable server_114514[K
+[3.623s] [2/4] Linking CXX executable server_114514[K
+[3.623s] [3/4] Building CXX object CMakeFiles/client_114514.dir/src/client_114514.cpp.o[K
+[3.722s] [3/4] Linking CXX executable client_114514[K
+[3.722s] [4/4] Linking CXX executable client_114514[K
+[3.723s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli -- -j32 -l32
+[3.724s] Invoking command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli
+[3.730s] -- Install configuration: ""
+[3.730s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/cpp_srvcli/server_114514
+[3.731s] -- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/cpp_srvcli/server_114514" to ""
+[3.731s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/cpp_srvcli/client_114514
+[3.732s] -- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/lib/cpp_srvcli/client_114514" to ""
+[3.732s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.732s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.732s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.732s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.732s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.732s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.732s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.732s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.732s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.733s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.733s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.733s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.733s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.733s] -- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.733s] -- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.735s] Invoked command in '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyberkanjousen/CLionProjects/ROS2_1/install/service_114514/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_srvcli

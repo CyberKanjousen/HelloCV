@@ -1,0 +1,10 @@
+/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot/CMakeFiles/uninstall.dir
+/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot/CMakeFiles/sensor_robot_uninstall.dir
+/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot/CMakeFiles/avoid_wall.dir
+/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot/CMakeFiles/test.dir
+/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot/CMakeFiles/edit_cache.dir
+/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot/CMakeFiles/rebuild_cache.dir
+/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot/CMakeFiles/list_install_components.dir
+/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot/CMakeFiles/install.dir
+/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot/CMakeFiles/install/local.dir
+/home/cyberkanjousen/CLionProjects/ROS2_1/build/sensor_robot/CMakeFiles/install/strip.dir

@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000718] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.004965] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.006110] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.006126] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', '--', '-j32', '-l32'], 'cwd': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/CLion/3309-1-cyberkanjousen-Legion-Y7000P-IRX10_TIME514306', 'SNAP_INSTANCE_KEY': '', 'USER': 'cyberkanjousen', 'SNAP_COMMON': '/var/snap/clion/common', 'socks_host': 'socks://127.0.0.1:10808', 'XDG_SESSION_TYPE': 'x11', 'SNAP_UID': '1000', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '0', 'HOME': '/home/cyberkanjousen', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void', 'DESKTOP_SESSION': 'ubuntu', 'SNAP_USER_DATA': '/home/cyberkanjousen/snap/clion/393', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/clion_clion.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2874', 'SYSTEMD_EXEC_PID': '3309', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '393', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5309', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'https_proxy': 'http://127.0.0.1:10808', 'LOGNAME': 'cyberkanjousen', 'SNAP_CONTEXT': '7cMq18PPvE0GyoauddMEMHLsazMvDF3aF-ApkkrArLYzdt8gAxjQ', 'http_proxy': 'http://127.0.0.1:10808', 'JOURNAL_STREAM': '9:38290', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'SNAP_VERSION': '2025.2.4', 'USERNAME': 'cyberkanjousen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'clion', 'WINDOWPATH': '2', 'PATH': '/home/cyberkanjousen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cyberkanjousen/.local/bin', 'SESSION_MANAGER': 'local/cyberkanjousen-Legion-Y7000P-IRX10:@/tmp/.ICE-unix/3211,unix/cyberkanjousen-Legion-Y7000P-IRX10:/tmp/.ICE-unix/3211', 'INVOCATION_ID': '9aa3dcbcf58143bc8d1a66d421b09343', 'XDG_MENU_PREFIX': 'gnome-', 'ftp_proxy': 'ftp://127.0.0.1:10808', 'SNAP_DATA': '/var/snap/clion/393', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SNAP_USER_COMMON': '/home/cyberkanjousen/snap/clion/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SNAP_ARCH': 'amd64', 'SNAP_COOKIE': '7cMq18PPvE0GyoauddMEMHLsazMvDF3aF-ApkkrArLYzdt8gAxjQ', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'SNAP_REEXEC': '', 'GDMSESSION': 'ubuntu', 'SNAP_NAME': 'clion', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SNAP_REAL_HOME': '/home/cyberkanjousen', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'SNAP': '/snap/clion/393', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='}), 'shell': False}
+[0.024086] (cpp_pubsub) StdoutLine: {'line': b'\n'}
+[0.024322] (cpp_pubsub) StdoutLine: {'line': b'[0/4] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o\x1b[K\n'}
+[0.099966] (-) TimerEvent: {}
+[0.200268] (-) TimerEvent: {}
+[0.300530] (-) TimerEvent: {}
+[0.400830] (-) TimerEvent: {}
+[0.501070] (-) TimerEvent: {}
+[0.601325] (-) TimerEvent: {}
+[0.701545] (-) TimerEvent: {}
+[0.801811] (-) TimerEvent: {}
+[0.902084] (-) TimerEvent: {}
+[1.002315] (-) TimerEvent: {}
+[1.102566] (-) TimerEvent: {}
+[1.202824] (-) TimerEvent: {}
+[1.303045] (-) TimerEvent: {}
+[1.403290] (-) TimerEvent: {}
+[1.503500] (-) TimerEvent: {}
+[1.603714] (-) TimerEvent: {}
+[1.703888] (-) TimerEvent: {}
+[1.804143] (-) TimerEvent: {}
+[1.904380] (-) TimerEvent: {}
+[2.004624] (-) TimerEvent: {}
+[2.104912] (-) TimerEvent: {}
+[2.205120] (-) TimerEvent: {}
+[2.305405] (-) TimerEvent: {}
+[2.405641] (-) TimerEvent: {}
+[2.505880] (-) TimerEvent: {}
+[2.606092] (-) TimerEvent: {}
+[2.638248] (cpp_pubsub) StdoutLine: {'line': b'[0/4] Building CXX object CMakeFiles/subscriber_114514.dir/src/subscriber_114514.cpp.o\x1b[K\n'}
+[2.638401] (cpp_pubsub) StdoutLine: {'line': b'[1/4] Building CXX object CMakeFiles/publisher_114514.dir/src/publisher_114514.cpp.o\x1b[K\n'}
+[2.706225] (-) TimerEvent: {}
+[2.736684] (cpp_pubsub) StdoutLine: {'line': b'[1/4] Linking CXX executable publisher_114514\x1b[K\n'}
+[2.806334] (-) TimerEvent: {}
+[2.906560] (-) TimerEvent: {}
+[3.006760] (-) TimerEvent: {}
+[3.106954] (-) TimerEvent: {}
+[3.207169] (-) TimerEvent: {}
+[3.307415] (-) TimerEvent: {}
+[3.407617] (-) TimerEvent: {}
+[3.507851] (-) TimerEvent: {}
+[3.608052] (-) TimerEvent: {}
+[3.708284] (-) TimerEvent: {}
+[3.808514] (-) TimerEvent: {}
+[3.908715] (-) TimerEvent: {}
+[4.008934] (-) TimerEvent: {}
+[4.109152] (-) TimerEvent: {}
+[4.209392] (-) TimerEvent: {}
+[4.271332] (cpp_pubsub) StdoutLine: {'line': b'[2/4] Linking CXX executable publisher_114514\x1b[K\n'}
+[4.271487] (cpp_pubsub) StdoutLine: {'line': b'[3/4] Building CXX object CMakeFiles/subscriber_114514.dir/src/subscriber_114514.cpp.o\x1b[K\n'}
+[4.309514] (-) TimerEvent: {}
+[4.409723] (-) TimerEvent: {}
+[4.416399] (cpp_pubsub) StdoutLine: {'line': b'[3/4] Linking CXX executable subscriber_114514\x1b[K\n'}
+[4.416554] (cpp_pubsub) StdoutLine: {'line': b'[4/4] Linking CXX executable subscriber_114514\x1b[K\n'}
+[4.418735] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.419373] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[4.427140] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub'], 'cwd': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/CLion/3309-1-cyberkanjousen-Legion-Y7000P-IRX10_TIME514306', 'SNAP_INSTANCE_KEY': '', 'USER': 'cyberkanjousen', 'SNAP_COMMON': '/var/snap/clion/common', 'socks_host': 'socks://127.0.0.1:10808', 'XDG_SESSION_TYPE': 'x11', 'SNAP_UID': '1000', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '0', 'HOME': '/home/cyberkanjousen', 'SNAP_LIBRARY_PATH': '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void', 'DESKTOP_SESSION': 'ubuntu', 'SNAP_USER_DATA': '/home/cyberkanjousen/snap/clion/393', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/clion_clion.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2874', 'SYSTEMD_EXEC_PID': '3309', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SNAP_REVISION': '393', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5309', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'https_proxy': 'http://127.0.0.1:10808', 'LOGNAME': 'cyberkanjousen', 'SNAP_CONTEXT': '7cMq18PPvE0GyoauddMEMHLsazMvDF3aF-ApkkrArLYzdt8gAxjQ', 'http_proxy': 'http://127.0.0.1:10808', 'JOURNAL_STREAM': '9:38290', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'SNAP_VERSION': '2025.2.4', 'USERNAME': 'cyberkanjousen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SNAP_INSTANCE_NAME': 'clion', 'WINDOWPATH': '2', 'PATH': '/home/cyberkanjousen/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/cyberkanjousen/.local/bin', 'SESSION_MANAGER': 'local/cyberkanjousen-Legion-Y7000P-IRX10:@/tmp/.ICE-unix/3211,unix/cyberkanjousen-Legion-Y7000P-IRX10:/tmp/.ICE-unix/3211', 'INVOCATION_ID': '9aa3dcbcf58143bc8d1a66d421b09343', 'XDG_MENU_PREFIX': 'gnome-', 'ftp_proxy': 'ftp://127.0.0.1:10808', 'SNAP_DATA': '/var/snap/clion/393', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SNAP_USER_COMMON': '/home/cyberkanjousen/snap/clion/common', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SNAP_ARCH': 'amd64', 'SNAP_COOKIE': '7cMq18PPvE0GyoauddMEMHLsazMvDF3aF-ApkkrArLYzdt8gAxjQ', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'SNAP_REEXEC': '', 'GDMSESSION': 'ubuntu', 'SNAP_NAME': 'clion', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cyberkanjousen/CLionProjects/ROS2_1/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SNAP_REAL_HOME': '/home/cyberkanjousen', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'SNAP_EUID': '1000', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'SNAP': '/snap/clion/393', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='}), 'shell': False}
+[4.434717] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.434839] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[4.435257] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[4.435677] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/publisher_114514\n'}
+[4.437584] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/publisher_114514" to ""\n'}
+[4.437768] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/subscriber_114514\n'}
+[4.443315] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/lib/cpp_pubsub/subscriber_114514" to ""\n'}
+[4.443527] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[4.443619] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[4.443666] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[4.443708] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[4.443749] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[4.443788] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[4.443825] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[4.443883] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[4.443955] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[4.444007] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[4.444045] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[4.444081] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[4.444118] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[4.444171] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[4.444231] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/cyberkanjousen/CLionProjects/ROS2_1/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[4.445691] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.458407] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[4.458906] (-) EventReactorShutdown: {}
